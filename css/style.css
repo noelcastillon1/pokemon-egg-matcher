@@ -1,0 +1,46 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+/* #egg-results-img {
+} */
+
+.pokemon-matcher {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.pokemon-pair {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* 
+make the fonts nice
+add button animations
+ */
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
